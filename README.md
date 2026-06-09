@@ -9,10 +9,12 @@ A full-stack DevOps project combining Docker, Terraform, GitHub Actions CI/CD, a
 - **Grafana Cloud** — Monitoring and observability dashboards
 
 ## 📁 Project Structure
+```
 devops-monitoring-project/
 ├── Dockerfile
 ├── index.html
-├── README.md
+└── README.md
+```
 
 ## 🚀 How to Run Locally
 ```bash
@@ -26,8 +28,7 @@ docker run -d -p 8080:80 --name devops-app devops-web-app
 http://localhost:8080
 ```
 
-## 📌 Project Stages
 - [x] Stage 1 — Dockerize web app
-- [ ] Stage 2 — Terraform AWS infrastructure
+- [x] Stage 2 — Terraform AWS infrastructure
 - [ ] Stage 3 — GitHub Actions CI/CD
 - [ ] Stage 4 — Grafana Cloud monitoring
