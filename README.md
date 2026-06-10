@@ -11,16 +11,17 @@ A full-stack DevOps project combining Docker, Terraform, GitHub Actions CI/CD, a
 - **Node Exporter** — System metrics (CPU, memory) collection
 
 ## 📁 Project Structure
+```
 devops-monitoring-project/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml
 ├── Dockerfile
 ├── docker-compose.yml
-├── prometheus.yml
 ├── main.tf
 ├── index.html
 └── README.md
+```
 
 ## 🚀 How to Run Locally
 
