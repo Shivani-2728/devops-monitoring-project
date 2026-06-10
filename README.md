@@ -30,5 +30,5 @@ http://localhost:8080
 
 - [x] Stage 1 — Dockerize web app
 - [x] Stage 2 — Terraform AWS infrastructure
-- [ ] Stage 3 — GitHub Actions CI/CD
+- [x] Stage 3 — GitHub Actions CI/CD
 - [ ] Stage 4 — Grafana Cloud monitoring
